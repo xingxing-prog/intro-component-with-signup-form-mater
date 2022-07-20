@@ -1,0 +1,121 @@
+
+html, body{
+    height:100%;
+    width:100%;
+}
+
+
+body{
+    background-image:url(./images/bg-intro-desktop.png);
+    background-repeat:no-repeat;
+    width:1440px;
+    background-color:hsl(0, 100%, 74%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    color:white;
+    font-size:16px;
+    font-family:"Poppins";
+}
+
+main{
+    display:flex;
+    gap:50px;
+}
+
+#left{
+   
+    width:450px;
+    flex-wrap:wrap;
+   
+    
+}
+
+h1{
+    font-size:40px;
+    font-weight:bold;
+    margin:0;
+  
+}
+
+
+form{
+   padding:10px;
+   display:flex;
+   flex-direction:column;
+   margin:30px;
+   justify-content:center;
+   align-items:center;
+   
+   
+}
+
+.info{
+    height:30px;
+    padding:5px 20px;
+    border:1px solid hsl(246, 25%, 77%);
+    width:380px;
+    border-radius:5px;
+    
+ 
+}
+
+#try{
+    box-shadow:2px 4px 16px rgba(0,0,0,.2);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40px;
+    width:500px;
+    background:hsl(248, 32%, 49%);
+    border-radius:2px;
+    
+}
+
+.big{
+    font-weight:bold;
+}
+
+
+
+#forms{
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    background:white;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:500px;
+    
+
+
+}
+
+section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:550px;
+}
+
+#submit{
+    height:45px;
+    color:white;
+    background:hsl(154, 59%, 51%);
+    box-shadow:2px 4px 16px rgba(0,0,0,.2);
+    width:425px;
+   
+    
+}
+
+#mark{
+    color: hsl(246, 25%, 77%);
+    font-size:10px;
+    text-align:center;
+}
+
+#term{
+    color:hsl(0, 100%, 74%);
+}
