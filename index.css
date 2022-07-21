@@ -39,27 +39,40 @@ h1{
   
 }
 
+.error{
+    position:absolute;
+    right:25px;
+    top:14px;
+    display:none;
+
+}
+
+.info-field{
+    position:relative;
+}
+
 
 form{
    padding:10px;
    display:flex;
    flex-direction:column;
    margin:30px;
-   justify-content:center;
-   align-items:center;
-   
    
 }
 
 .info{
-    height:30px;
-    padding:5px 20px;
-    border:1px solid hsl(246, 25%, 77%);
+    height:40px;
+    padding:5px 30px;
+    border:2px solid hsl(246, 25%, 77%);
     width:380px;
     border-radius:5px;
+    background-color:white;
     
  
 }
+
+
+
 
 #try{
     box-shadow:2px 4px 16px rgba(0,0,0,.2);
@@ -77,6 +90,15 @@ form{
     font-weight:bold;
 }
 
+.result{
+    color:hsl(0, 100%, 74%);
+    font-size:15px;
+    margin-top:0;
+    margin-bottom:20px;
+    font-style:italic;
+    text-align:right;
+}
+
 
 
 #forms{
@@ -84,9 +106,9 @@ form{
     background:white;
     border-radius:10px;
     display:flex;
-    justify-content:center;
-    align-items:center;
-    width:500px;
+    /*justify-content:center;
+    align-items:center;*/
+    width:520px;
     
 
 
@@ -101,13 +123,17 @@ section{
 }
 
 #submit{
-    height:45px;
+    height:50px;
     color:white;
     background:hsl(154, 59%, 51%);
     box-shadow:2px 4px 16px rgba(0,0,0,.2);
-    width:425px;
+    width:445px;
    
     
+}
+
+#submit:hover{
+    cursor:pointer;
 }
 
 #mark{

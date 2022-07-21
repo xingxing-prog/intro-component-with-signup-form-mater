@@ -31,11 +31,36 @@
       
       <div id="forms">
         <form action="">
-          <input type="text" id="fname" class="info" value="First Name"><br>
-          <input type="text" id="lname" class="info" value="Last Name"><br>
-          <input type="text" id="email" class="info" value="Email Address"><br>
-          <input type="text" id="password" class="info" value="Password"> <br>
-          <input type="submit" class="info" value="CLAIM YOUR FREE TRIAL" id="submit">
+          <div class="info-field">
+            <input type ="text" id="fname" class="info" value="First Name">
+            <input type="image" class="error" src="./images/icon-error.svg" alt="icon-error" id="firsterror">
+          </div>
+  
+          <p id="firstnameInfo" class="result"></p>
+
+          <div class="info-field">
+            <input type="text" id="lname" class="info" value="Last Name">
+            <input type="image" class="error" src="./images/icon-error.svg" alt="icon-error" id="seconderror">
+          </div>
+         
+          <p id="lastnameInfo" class="result"></p>
+
+
+          <div class="info-field">
+            <input type="text" id="emailaddress" class="info" value="Email Address">
+            <input type="image" class="error" src="./images/icon-error.svg" alt="icon-error" id="thirderror">
+          </div>
+
+          <p id="emailaddressInfo" class="result"></p>
+
+          <div class="info-field">
+            <input type="text" id="password" class="info" value="password"> 
+            <input type="image" class="error" src="./images/icon-error.svg" alt="icon-error" id="fourtherror">
+          </div>
+         
+          <p id="passwordInfo" class="result"></p>
+
+          <input type="button" class="info" value="CLAIM YOUR FREE TRIAL" id="submit">
           <p id="mark">By clicking the button, you are agreeing to our <span id="term">Terms and Services</span></p>
         </p>
         </form>
@@ -43,7 +68,7 @@
 
     </section>
   </main>
-
+  <script src="index.js"></script>
   
 </body>
 </html>
